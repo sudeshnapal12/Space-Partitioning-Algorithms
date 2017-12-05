@@ -1,0 +1,13 @@
+NOTES
+
+createAndBulkLoadNewRTree (BulkLoadMethod m, //Enumerator: BLM_STR 	
+IDataStream &stream, 
+IStorageManager &sm, 
+double fillFactor, 
+uint32_t indexCapacity, 
+uint32_t leafCapacity, 
+uint32_t dimension, 
+RTreeVariant rv, 
+id_type &indexIdentifier)
+
+
