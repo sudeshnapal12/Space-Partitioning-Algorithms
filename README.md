@@ -24,6 +24,10 @@ apt-cache search opengl
 sudo apt-get install freeglut3 freeglut3-dev libglew-dev
 sudo apt-get install mesa-utils
 ```
+* **Check your OpenGL installation**
+```
+glxinfo | grep OpenGL
+```
 
 * **Draw Rectangle as a HelloWorld program.**
 ```
