@@ -29,8 +29,9 @@ sudo apt-get install mesa-utils
 glxinfo | grep OpenGL
 ```
 
-* **Draw Rectangle as a HelloWorld program.**
+* **Draw Triangle and Circle as a HelloWorld program.**
+  * Opens Triangle and Circle in two openGL windows.
 ```
-g++ openGLHelloWorld.cpp -lglut -lGL -o triangle
-./traingle
+g++ openGLHelloWorld.cpp -lglut -lGL -o hello
+./hello
 ```
