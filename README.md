@@ -35,3 +35,9 @@ glxinfo | grep OpenGL
 g++ openGLHelloWorld.cpp -lglut -lGL -o hello
 ./hello
 ```
+
+* **Draw Rotated Cube using OpenGL.**
+```
+g++ openGLCube.cpp -lglut -lGL -lGLU -o cube
+./cube
+```
