@@ -16,8 +16,6 @@
 #include <utilities/tile_rectangle.h>
 #endif
 
-//#define NUMBER_DIMENSIONS 2
-
 const std::string TAB = "\t";
 
 /* Sort-tile recursive (STR) partitioning method */
