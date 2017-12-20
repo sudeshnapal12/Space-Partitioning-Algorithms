@@ -1,5 +1,8 @@
 # Binary Space Partitioning (BSP)
 Recursively divides the space into two parts until the leaf nodes satisfy the constraints such as minimum number of spatial objects in a partition.
+   * BSP tree is a heirarchical subdivisions of n dimensional space into convex subspaces. The space is subdivided using hyperplanes passing through node.
+   * Kd-trees and quad-trees have hyperplanes aligned with the coordinate axis while BSP tree has hyperplanes with any orientation.
+
 ### How to run Binary Space Partitioning algorithm
 ```
 g++ -std=c++0x bsp_3d.cpp -o bsp
