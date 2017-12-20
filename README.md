@@ -23,7 +23,7 @@ g++ -std=c++0x str_3d.cpp -lspatialindex_c -lspatialindex -o str
 ./str testObj.mbb 
 ```
 
-# Visualization with OpenGL (trials)
+# Visualizations with OpenGL (trials)
 ### Hello World of OpenGL C++ library with installation instructions
 http://www.linuxjournal.com/content/introduction-opengl-programming
 
@@ -51,7 +51,7 @@ g++ openGLCube.cpp -lglut -lGL -lGLU -o cube
 ./cube
 ```
 
-# Visualization with Matlab
+# Visualizations in Matlab
 After trying several things in OpenGL, I found stackoverflow links directing to Matlab. The APIs were simpler and easy to implement. So, I implemented the partitioning algorithm visualizations in Matlab and not in OpenGL.
 ```
 Run simplecube.m
