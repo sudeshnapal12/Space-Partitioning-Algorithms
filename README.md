@@ -4,6 +4,9 @@ Recursively divides the space into two parts until the leaf nodes satisfy the co
    * Kd-trees and quad-trees have hyperplanes aligned with the coordinate axis while BSP tree has hyperplanes with any orientation.
 
 ### How to run Binary Space Partitioning algorithm
+   * You can change the parition parameters in extract_params_partitioning method of partition_params.hpp. 
+   * Paramters are **volume of space (min_x, min_y, min_z, max_x, max_y, max_z) and bucket_size**. You choose the volume of space based on the input spatial objects so that all the spatial objects are covered. 
+   * In the code, space volume is hard-coded as 0,0,0,50,50,50 for testObj.mbb as input and bucket_size as 4.
 ```
 g++ -std=c++0x bsp_3d.cpp -o bsp
 ./bsp testObj.mbb 
