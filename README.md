@@ -1,4 +1,12 @@
-# Sort-Tile-Recursive-Partitioning
+# Binary Space Partitioning (BSP)
+Recursively divides the space into two parts until the leaf nodes satisfy the constraints such as minimum number of spatial objects in a partition.
+### How to run Binary Space Partitioning algorithm
+```
+g++ -std=c++0x bsp_3d.cpp -o bsp
+./bsp testObj.mbb 
+```
+
+# Sort Tile Recursive Partitioning (STR)
 Sort Tile Recursive Partitioning : Partitioning using RTree from libSpatialIndex.
 
 ### Hello World of libSpatialIndex C++ library
@@ -9,12 +17,13 @@ g++ -std=c++0x helloLibSpatial.cpp -lspatialindex_c -lspatialindex -o helloLibSp
 ```
 
 
-### How to run partitioning algorithm
+### How to run Sort Tile Partitioning algorithm
 ```
 g++ -std=c++0x str_3d.cpp -lspatialindex_c -lspatialindex -o str
 ./str testObj.mbb 
 ```
 
+# Visualization with OpenGL (trials)
 ### Hello World of OpenGL C++ library with installation instructions
 http://www.linuxjournal.com/content/introduction-opengl-programming
 
@@ -42,8 +51,8 @@ g++ openGLCube.cpp -lglut -lGL -lGLU -o cube
 ./cube
 ```
 
-### Visualization in Matlab
-After trying several things in OpenGL, I found stackoverflow links directing to Matlab. The APIs were simpler and easy to implement.
+# Visualization with Matlab
+After trying several things in OpenGL, I found stackoverflow links directing to Matlab. The APIs were simpler and easy to implement. So, I implemented the partitioning algorithm visualizations in Matlab and not in OpenGL.
 ```
 Run simplecube.m
 ```
